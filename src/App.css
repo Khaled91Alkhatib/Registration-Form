@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+.main-page {
+  background-color: rgb(60, 60, 60);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+}
