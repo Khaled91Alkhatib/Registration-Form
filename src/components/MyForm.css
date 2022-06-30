@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+.main-page {
+  background-color: rgb(60, 60, 60);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.title {
+  text-align: center;
+  font-size: large;
+}
+
+.thank-you {
+  background-color: rgb(75, 75, 254);
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+  height: 20px;
+  margin-top: 0.5em;
+}
+
+input,
+button {
+  height: 35px;
+  border: none;
+  background-color: rgb(210, 210, 210);
+  margin-top: 1em;
+}
+
+input {
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+span {
+  color: red;
+}
+
+button {
+  background-color: rgb(0, 184, 0);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
